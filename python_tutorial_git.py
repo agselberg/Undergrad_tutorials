@@ -26,7 +26,7 @@ print()
 ### .strip() ###
 # Using the .strip() function, remove the whitespace from the following sentence:
 
-ws_sentence = "  Hello    I hope you have\t\t a great day!    "
+ws_sentence = "  Hello I hope you have a great day! \t\t   "
 
 # Store your stripped sentence string as a variable stripped_ws
 
@@ -56,9 +56,9 @@ for l, line in enumerate(fasta_lines):
 		print(species_name)
 
 ### .replace() ###
-# Using .replace() replace, convert the coding strand of DNA to the template strand:
+# Using .replace() replace the occurances of cat with CAT:
 
-coding_strand = 'ATTGATTACAGGATTACAGGGATTACCCAGTACCAGTGTGACAGCTCTC'
+to_replace = "My cat is 6 years old. She is the best cat ever." 
 
 
 
