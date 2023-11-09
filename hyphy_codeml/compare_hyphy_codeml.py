@@ -8,9 +8,12 @@
 
 import os 
 
-### We will be working out of the directories in codeml_git_data/positive-selection/01_protocol_analyses
-### the reason there are so many subdirectories is because I copied this data from github here:
-### https://github.com/abacus-gene/paml-tutorial and this is how they organized it
+### We will be working out of data from a CodeML tutorial, please copy it now with the following shell command:
+### git clone https://github.com/abacus-gene/paml-tutorial.git codeml_git_data
+
+### once you have cloned that directory, look through them a bit, but especiallly the subdirectories in:
+### codeml_git_data/positive-selection/01_protocol_analyses
+
 
 ### using os modules, store the file path to 01_protocol_analyses as a variable
 
