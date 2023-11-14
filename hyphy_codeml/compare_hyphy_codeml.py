@@ -24,7 +24,7 @@ import os
 ### 2. a sequence alignment file with extension .phy
 ### 3. directories that were used to run various hypotheses of the branch-site model
 
-
+### Lets start with the branch-site folder. There are subdirectories inside the branch folder (bird, chicken, etc) 
 ### We want to get a list of each of these directories. Can you do this with list comprehension? 
 
 #*bs_sub_dirs =
